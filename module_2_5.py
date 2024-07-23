@@ -1,6 +1,5 @@
 def get_matrix(n, m, value):
     matrix = []
-    ch = []
     for i in range(n):
         matrix.append([])
         ch = []
@@ -8,7 +7,6 @@ def get_matrix(n, m, value):
             ch.append(value)
         matrix[i] = ch
     return (matrix)
-
 
 result1 = get_matrix(2, 2, 10)
 result2 = get_matrix(3, 5, 42)
